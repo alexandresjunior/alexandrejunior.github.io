@@ -1,57 +1,262 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt_BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de Java Web com Spring Boot</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alexandre Junior | Cursos</title>
+
+    <!-- Custom CSS styles -->
     <style>
-        /* Estilos CSS */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #666;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
+        .nav-link {
+            padding-bottom: 0 !important;
         }
     </style>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/d3a3089c05.js" crossorigin="anonymous"></script>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1>Curso de Java Web com Spring Boot</h1>
-        <p>Bem-vindo ao nosso curso de Java Web com Spring Boot! Aqui você aprenderá os fundamentos e práticas modernas para desenvolvimento web utilizando Spring Boot.</p>
-        <p>Confira os detalhes do curso e matricule-se já!</p>
-        <a href="https://www.alexandrejunior.dev/" class="btn">Matricule-se agora</a>
+
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="https://www.alexandrejunior.dev/" target="_blank">
+                <div class="sidebar-brand-icon mt-2">
+                    <img src="./aj_dev_logo.png" width="40%" alt="Alexandre Junior"/>
+                </div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-3">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Escolha a linguagem
+            </div>
+
+            <!-- Nav Item - Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePython"
+                    aria-expanded="true" aria-controls="collapsePython">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </a>
+                <div id="collapsePython" class="collapse pt-3" aria-labelledby="headingPython" data-parent="#accordionSidebar">
+                    <div class="bg-white collapse-inner rounded">
+                        <a class="collapse-item" href="index.html">Lógica de Programação</a>
+                        <a class="collapse-item" href="index.html">Orientação a Objetos</a>
+                        <a class="collapse-item" href="index.html">Flask</a>
+                        <a class="collapse-item" href="index.html">Django</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseJava"
+                    aria-expanded="true" aria-controls="collapseJava">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </a>
+                <div id="collapseJava" class="collapse pt-3" aria-labelledby="headingJava"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white collapse-inner rounded">
+                        <a class="collapse-item" href="index.html">Lógica de Programação</a>
+                        <a class="collapse-item" href="index.html">Orientação a Objetos</a>
+                        <a class="collapse-item" href="index.html">Spring Boot</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span></a>
+            </li>
+
+            <!-- Nav Item - Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCSS"
+                    aria-expanded="true" aria-controls="collapseCSS">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </a>
+                <div id="collapseCSS" class="collapse pt-3" aria-labelledby="headingCSS"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white collapse-inner rounded">
+                        <a class="collapse-item" href="index.html">Fundamentos</a>
+                        <a class="collapse-item" href="index.html">Bootstrap</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseJS"
+                    aria-expanded="true" aria-controls="collapseJS">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </a>
+                <div id="collapseJS" class="collapse pt-3" aria-labelledby="headingJS"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white collapse-inner rounded">
+                        <a class="collapse-item" href="index.html">Lógica de Programação</a>
+                        <a class="collapse-item" href="index.html">React JS</a>
+                        <a class="collapse-item" href="index.html">React Native</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-3">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Ferramentas Importantes
+            </div>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <span>Git & GitHub</span></a>
+            </li>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fa-brands fa-docker"></i>
+                    <span>Docker</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-3">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Minhas Redes
+            </div>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/alexandrejunior.dev" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span></a>
+            </li>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/@alexandrejuniordev" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Youtube</span></a>
+            </li>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="http://github.com/alexandresjunior" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span></a>
+            </li>
+
+            <!-- Nav Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/alexandrejuniordev/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>Linkedin</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block my-3">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Begin Page Content -->
+                <div class="container-fluid mt-3">
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800">Bem-vindo(a)!</h1>
+                    <p>Página em construção...</p>
+                    <img src="https://media1.tenor.com/m/5BYK-WS0__gAAAAd/cool-fun.gif" alt="Dancing Cat"/>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Alexandre Junior &copy; 2023</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+        </div>
+        <!-- End of Content Wrapper -->
     </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
 </body>
+
 </html>
